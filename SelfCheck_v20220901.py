@@ -13,9 +13,9 @@ import os
 import re
 
 # The sheet you will install from the colledge's website
-print("想要打开的文件(xls/xlsx):")
-xlsx = input()
-wb1 = load_workbook('./' + xlsx)
+print("教务系统文件(xls/xlsx):")
+xlsx1 = input()
+wb1 = load_workbook('./' + xlsx1)
 
 ws1 = wb1['Sheet1']
 
@@ -33,7 +33,9 @@ for i in range(7, 250):
     course_status.append(str(ws1.cell(row = i, column = 10).value).strip())
 
 # The sheet you should fill
-wb2 = load_workbook('./祝桢涛.xlsx')
+print("信电文件:")
+xlsx2 = input()
+wb2 = load_workbook('./' + xlsx2)
 
 ws2 = wb2['Sheet1']
 
