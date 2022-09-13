@@ -114,7 +114,7 @@ for i in range(7, 250):
         j = 0
         k = 1
         while j < len(icourse_name):
-            if pcourse_status[j] == '通过':
+            if icourse_status[j] == '通过':
                 nm = ws2.cell(row = i + k, column = 3, value = icourse_name[j])
                 id = ws2.cell(row = i + k, column = 2, value = icourse_id[j])
                 wg = ws2.cell(row = i + k, column = 4, value = icourse_weight[j])
