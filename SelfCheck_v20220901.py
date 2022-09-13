@@ -3,7 +3,7 @@
 @File    :   SelfCheck_v20220901.py
 @Time    :   2022/09/13 17:03:41
 @Author  :   BugCrown 
-@Version :   2209a
+@Version :   220901
 @Contact :   grantbugcrown@gmail.com
 '''
 #---------------------------------
